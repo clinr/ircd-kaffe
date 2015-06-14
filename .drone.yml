@@ -1,0 +1,8 @@
+image: crosbymichael/build-essential
+git:
+  path: github.com/clinr/ircd-kaffe
+script:
+  - apt-get install -y flex bison libssl-dev
+  - ./configure
+  - make 
+  - make install
