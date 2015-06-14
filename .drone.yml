@@ -1,4 +1,4 @@
-image: crosbymichael/build-essential
+image: bradrydzewski/gcc:4.8
 git:
   path: github.com/clinr/ircd-kaffe
 script:
